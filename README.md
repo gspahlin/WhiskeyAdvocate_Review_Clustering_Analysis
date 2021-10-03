@@ -23,7 +23,7 @@ file Whiskey_unsuper_learn.ipynb contains the functions and parameter tuning I u
 <br>
 Fig. 1 - An example t-SNE visualization of the dimensionality reduced review features. The particular features used in the visualization above derive from counts of 
 descriptive words by category (e.g. sweet, or fruity). This was the feature space I got the best results from.<br>
-
+<br><br>
 I used several different feature sets for my analysis, and every time I tried a new set of features, I used t-SNE to visualize my data before I did any clustering 
 analysis. The following files are optimizations of t-SNE visualizations:
 <br>
@@ -39,4 +39,14 @@ Step 2 - clustering analysis to identify similarities in review language
 Once I had a method for visualizing the data, I could move on to trying to use a clustering method for identifying similar review language in whiskeys. The assumption 
 here is that reviews that use similar descriptive language will correspond to whiskies with similar flavor and sensory characteristics. The clustering method I used 
 for clustering was Density-Based Spatial Clustering of Applications with Noise (DBSCAN). I selected DBSCAN because it functions by identifying clusters based on 
-density. This makes it possible for DBSCAN to identify clusters with unusual shapes. 
+density. This makes it possible for DBSCAN to identify clusters with unusual shapes. The parameters of clustering, make a big difference for how similar the review 
+language has to be to match, and worked differently based on the features used. The features I used changed througout the study - first I started with a list of about 
+30 of the most common descriptive words as features. I then reduced the feature space to a set of categories (e.g. sweet, wood, fruity) and enumerated the number of 
+words that fit into certain flavor categories. Finally I tried a version of my features where the number of words in particular flavor categories were considered as 
+ratios of the total number of words in the review. Of these, the categorical features that were not normalized appeard to work the best. 
+<br>
+In order visualize the clusters, I added clustering to my t-SNE visualizations, where individual clusters. Depending on the parameters used, you can dramatically chaneg the number of clusters found by the algorythm. Below is a an early clusering pattern that I found in my analyses. 
+<br>
+<img src= "https://github.com/gspahlin/Whiskey_Analysis/blob/master/Figures/suboptimal_clusters.png" alt = "clustering results">
+<br>
+Fig. 2 - clustering results with a small number of clusters. 
