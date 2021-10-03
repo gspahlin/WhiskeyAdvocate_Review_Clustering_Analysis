@@ -45,8 +45,18 @@ language has to be to match, and worked differently based on the features used. 
 words that fit into certain flavor categories. Finally I tried a version of my features where the number of words in particular flavor categories were considered as 
 ratios of the total number of words in the review. Of these, the categorical features that were not normalized appeard to work the best. 
 <br>
-In order visualize the clusters, I added clustering to my t-SNE visualizations, where individual clusters. Depending on the parameters used, you can dramatically chaneg the number of clusters found by the algorythm. Below is a an early clusering pattern that I found in my analyses. 
+In order visualize the clusters, I added clustering to my t-SNE visualizations, where individual clusters. Depending on the parameters used, you can dramatically 
+chaneg the number of clusters found by the algorythm. Below is a an early clusering pattern that I found in my analyses. 
 <br>
 <img src= "https://github.com/gspahlin/Whiskey_Analysis/blob/master/Figures/suboptimal_clusters.png" alt = "clustering results">
 <br>
 Fig. 2 - clustering results with a small number of clusters. 
+
+Initially I thought this clustering pattern looked promising. In the figure above, you can see that the whiskeys have been placed in 7 categories - the 8th category 
+(labled -1) is a noise category, where uncategorized whiskies are placed. To figure out how the whiskies are being categorized in this scheme, I used GroupBy 
+statistics. Doing this clearly shows that the whiskeys are primarily being categorized by how many sweet descriptors appear in the review.
+<br>
+<img src= "https://github.com/gspahlin/Whiskey_Analysis/blob/master/Figures/Clustering_results_too_coarse.jpg" alt = "clustering results">
+<br>
+Fig. 3 - Overly course DBSCAN criteria lead to whiskeys being grouped almost completely by how sweet they are. 
+<br>
