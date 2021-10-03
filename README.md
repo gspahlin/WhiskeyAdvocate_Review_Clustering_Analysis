@@ -16,7 +16,8 @@ where points should fall in relation to one another in a 2 dimensional space. Th
 file Whiskey_unsuper_learn.ipynb contains the functions and parameter tuning I used for optimizing my t-SNE visualizations.
 <br>
 <img src="https://github.com/gspahlin/Whiskey_Analysis/blob/master/Figures/tSNE_alone.png" alt = "t-SNE example">
-<br>Fig. 1 - An example t-SNE visualization of the dimensionality reduced review features. 
+Fig. 1 - An example t-SNE visualization of the dimensionality reduced review features. The particular features used in the visualization above derive from counts of 
+descriptive words by category (e.g. sweet, or fruity). This was the feature space I got the best results from.<br>
 
 I used several different feature sets for my analysis, and every time I tried a new set of features, I used t-SNE to visualize my data before I did any clustering 
 analysis. The following files are optimizations of t-SNE visualizations:
