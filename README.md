@@ -3,15 +3,19 @@ Unsupervised learning and analysis with my whiskey database
 <br><br>
 The goal of this analysis was to understand what kinds of whiskeys are available in the market - in order to provide recommendations. My underlying hypothesis is that 
 whiskeys will cluster by price, flavor characters, and abv in ways that are not captured by categories such as 'single malt scotch' or 'bourbon/tenessee' which are 
-largely geographical in nature. I am using the t-SNE algorythm in Scikit-Learn to visualize the structure of the data in my feature space. The feature spaces I used in
+largely geographical in nature. I am using the t-SNE algorythm in Scikit-Learn to visualize the structure of the data in my feature space. The feature spaces I used 
+in
 this analysis all come from the review language present on WhiskeyAdvocate.com. They were constructed using word counts of discriptive words in the reviews. After 
-visualization of the data, the next step is to use a clustering algorythm to predict clusters in the data. I will use my best t-SNE parameters to visualize the clusters, 
+visualization of the data, the next step is to use a clustering algorythm to predict clusters in the data. I will use my best t-SNE parameters to visualize the 
+clusters, 
 and basic data analysis to learn the characteristics of the clusters and find representatives. 
 <br><br>
 Step 1 - Optimizing the visualization
 <br>
-In this study I was interested in using unsupervised clustering methods to identify similar whiskeys. I wanted some kind of visualization technique, however, in order to 
-see what my clustering algorythm was actually doing. I chose t-SNE for this, which is a dimensionality reduction technique that relies on a distance metric to determine
+In this study I was interested in using unsupervised clustering methods to identify similar whiskeys. I wanted some kind of visualization technique, however, in order
+to 
+see what my clustering algorythm was actually doing. I chose t-SNE for this, which is a dimensionality reduction technique that relies on a distance metric to 
+determine
 where points should fall in relation to one another in a 2 dimensional space. The first code I commited to this repository was in the service of optimizing this. The 
 file Whiskey_unsuper_learn.ipynb contains the functions and parameter tuning I used for optimizing my t-SNE visualizations.
 <br>
@@ -29,3 +33,10 @@ Whiskey_unsuper_learn_w_price_no_oak.ipynb<br>
 Whiskey_unsuper_tsne5.ipynb<br>
 Whiskey_unsuper_tsne6.ipynb<br>
 Whiskey_unsuper_tsne7.ipynb<br>
+<br>
+Step 2 - clustering analysis to identify similarities in review language
+<br>
+Once I had a method for visualizing the data, I could move on to trying to use a clustering method for identifying similar review language in whiskeys. The assumption 
+here is that reviews that use similar descriptive language will correspond to whiskies with similar flavor and sensory characteristics. The clustering method I used 
+for clustering was Density-Based Spatial Clustering of Applications with Noise (DBSCAN). I selected DBSCAN because it functions by identifying clusters based on 
+density. This makes it possible for DBSCAN to identify clusters with unusual shapes. 
