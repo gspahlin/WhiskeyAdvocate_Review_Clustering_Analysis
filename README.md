@@ -86,10 +86,12 @@ different categories. This worked better than a large set of descriptive words, 
 in the review. There may be room for improvement in this scheme, but at the moment I feel that I've found a maximum in the particular approach I'm using.
 <br>
 Currently the clustering file that is most important is:<br>
+<br>
 <b>Whiskey_unsuper_learn_cluster3.ipynb</b>
 <br>
-Other clustering result files include:
 <br>
+Other clustering result files include:
+<br><br>
 Whiskey_unsuper_learn_cluster1.ipynb<br>
 Whiskey_unsuper_learn_cluster2.ipyn<br>
 Whiskey_unsuper_learn_cluster3.ipynb<br>
