@@ -59,7 +59,7 @@ statistics. Doing this clearly shows that the whiskeys are primarily being categ
 <img src= "https://github.com/gspahlin/Whiskey_Analysis/blob/master/Figures/Clustering_results_too_coarse.jpg" alt = "clustering results">
 <br>
 Fig. 3 - Overly course DBSCAN criteria lead to whiskeys being grouped almost completely by how sweet they are. 
-<br>
+<br><br>
 Figure 3 provides some inight into how the DBSCAN algorythm is clusering these whiskies. In the course method shown above, the critera for being in a particular 
 category is the number of times a descrpitions present in the review falls into the "sweet" category (e.g. sweet, sweetness, honey, or sugar). So a whiskey that was 
 described as "sweet" twice, would be placed in the same category a one that described a "honey" flavor, and went on to describe the "sweetness" of the whiskey. In 
@@ -71,7 +71,7 @@ whiskies, or about 12% of whiskies. In spite of the uncategorized figure increas
 <img src= "https://github.com/gspahlin/Whiskey_Analysis/blob/master/Figures/HS_clusters.png" alt = "clustering results optimized">
 <br>
 Fig. 4 - A DBSCAN clustring algorythm that results in 532 categories. There are not 532 colors so some of the groups are redundant. 
-<br>
+<br><br>
 When the criteria for forming a group are lowered to the highest degree, the groups get much smaller, and the criteria for being in the same group gets higher. In 
 general most of these whiskies are the same in all but one or two of the available features. 
 <br>
