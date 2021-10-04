@@ -1,4 +1,4 @@
-# Whiskey_Analysis
+# WhiskeyAdvocate_Review_Clustering_Analysis
 Unsupervised learning and analysis with my whiskey database
 <br><br>
 The goal of this analysis was to understand what kinds of whiskeys are available in the market - in order to provide recommendations. My underlying hypothesis is that 
