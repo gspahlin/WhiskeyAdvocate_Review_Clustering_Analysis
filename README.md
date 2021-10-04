@@ -68,7 +68,7 @@ whiskies, or about 12% of whiskies. In spite of the uncategorized figure increas
 <br>
 <img src= "https://github.com/gspahlin/Whiskey_Analysis/blob/master/Figures/HS_clusters.png" alt = "clustering results optimized">
 <br>
-Fig. 4 - A DBSCAN clustring algorythm that results in 532 categories. There are not 532 colors so some of the groups are redundant. 
+Fig. 4 - A DBSCAN clustring algorythm that results in 532 categories. There are fewer than 532 colors so some groups have the same color. 
 <br><br>
 When the criteria for forming a group are lowered to the highest degree, the groups get much smaller, and the criteria for being in the same group gets higher. In 
 general most of these whiskies are the same in all but one or two of the available features. 
