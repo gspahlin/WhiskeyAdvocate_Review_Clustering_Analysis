@@ -42,7 +42,7 @@ language has to be to match, and worked differently based on the features used. 
 30 of the most common descriptive words as features. I then reduced the feature space to a set of categories (e.g. sweet, wood, fruity) and enumerated the number of 
 words that fit into certain flavor categories. Finally I tried a version of my features where the number of words in particular flavor categories were considered as 
 ratios of the total number of words in the review. Of these, the categorical features that were not normalized appeard to work the best. 
-<br>
+<br><br>
 In order visualize the clusters, I added clustering to my t-SNE visualizations, where individual clusters. Depending on the parameters used, you can dramatically 
 chaneg the number of clusters found by the algorythm. Below is a an early clusering pattern that I found in my analyses. 
 <br>
