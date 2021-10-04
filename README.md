@@ -13,11 +13,9 @@ and basic data analysis to learn the characteristics of the clusters and find re
 Step 1 - Optimizing the visualization
 <br>
 In this study I was interested in using unsupervised clustering methods to identify similar whiskeys. I wanted some kind of visualization technique, however, in order
-to 
-see what my clustering algorythm was actually doing. I chose t-SNE for this, which is a dimensionality reduction technique that relies on a distance metric to 
-determine
-where points should fall in relation to one another in a 2 dimensional space. The first code I commited to this repository was in the service of optimizing this. The 
-file Whiskey_unsuper_learn.ipynb contains the functions and parameter tuning I used for optimizing my t-SNE visualizations.
+to see what my clustering algorythm was actually doing. I chose t-SNE for this, which is a dimensionality reduction technique that relies on a distance metric to 
+determine where points should fall in relation to one another in a 2 dimensional space. The first code I commited to this repository was in the service of optimizing 
+this. The file Whiskey_unsuper_learn.ipynb contains the functions and parameter tuning I used for optimizing my t-SNE visualizations.
 <br>
 <img src="https://github.com/gspahlin/Whiskey_Analysis/blob/master/Figures/tSNE_alone.png" alt = "t-SNE example">
 <br>
