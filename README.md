@@ -77,6 +77,23 @@ general most of these whiskies are the same in all but one or two of the availab
 <br>
 <img src= "https://github.com/gspahlin/Whiskey_Analysis/blob/master/Figures/Representative%20cluster.jpg" alt = "clustering results optimized">
 <br>
-Fig. 5 - The optimized clustering algorythm produces small groups with high level of similarities of descriptive words in the reviews. In the above example the whiskeys in the same group have agreement in all of the features save for 1.  
+Fig. 5 - The optimized clustering algorythm produces small groups with high level of similarities of descriptive words in the reviews. In the above example the 
+whiskeys in the same group have agreement in all of the features except for "fruity words".  
 <br>
-
+<br>
+Several different feature spaces were tried at this level. The best results came from a feature that enumerated instances of descriptive language in a set of 
+different categories. This worked better than a large set of descriptive words, and better than the descriptive words when they were normalized to the number of words 
+in the review. There may be room for improvement in this scheme, but at the moment I feel that I've found a maximum in the particular approach I'm using.
+<br>
+Currently the clustering file that is most important is:<br>
+Whiskey_unsuper_learn_cluster3.ipynb
+<br>
+Other clustering result files include:
+<br>
+Whiskey_unsuper_learn_cluster1.ipynb<br>
+Whiskey_unsuper_learn_cluster2.ipyn<br>
+Whiskey_unsuper_learn_cluster3.ipynb<br>
+ <br><br>
+ Gregory W. Spahlinger   
+ gspahlin@gmail.com    
+ <a href = 'https://www.linkedin.com/in/gregory-spahlinger/'>LinkedIn</a>
