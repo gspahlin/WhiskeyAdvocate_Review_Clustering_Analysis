@@ -60,3 +60,15 @@ statistics. Doing this clearly shows that the whiskeys are primarily being categ
 <br>
 Fig. 3 - Overly course DBSCAN criteria lead to whiskeys being grouped almost completely by how sweet they are. 
 <br>
+Figure 3 provides some inight into how the DBSCAN algorythm is clusering these whiskies. In the course method shown above, the critera for being in a particular 
+category is the number of times a descrpitions present in the review falls into the "sweet" category (e.g. sweet, sweetness, honey, or sugar). So a whiskey that was 
+described as "sweet" twice, would be placed in the same category a one that described a "honey" flavor, and went on to describe the "sweetness" of the whiskey. In 
+this case 372 whiskeys were classified as 'noise', which is about 6% of the whiskeys. In order to get more useful categorizations. In order to maximize the number of 
+groups minimized epsilon (the maximum distance to the next point in the cluster) and "min_samples", the number points that need to be less than epsilon away in order 
+for a point to be in the center of a cluster. The result of this was a clustering protocol with 532 distinct clusters. The number of whiskeys in cluster -1 was 731 
+whiskies, or about 12% of whiskies. In spite of the uncategorized figure increasing, the groups in this method are far more targeted. See below for an example.
+<br>
+<img src= "https://github.com/gspahlin/Whiskey_Analysis/blob/master/Figures/HS_clusters.png" alt = "clustering results optimized">
+<br>
+Fig. 4 - A DBSCAN clustring algorythm that results in 532 categories. There are not 532 colors so some of the groups are redundant. 
+<br>
