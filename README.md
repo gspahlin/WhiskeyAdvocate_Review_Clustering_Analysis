@@ -53,7 +53,7 @@ Fig. 2 - clustering results with a small number of clusters.
 Initially I thought this clustering pattern looked promising. In the figure above, you can see that the whiskeys have been placed in 7 categories - the 8th category 
 (labled -1) is a noise category, where uncategorized whiskies are placed. To figure out how the whiskies are being categorized in this scheme, I used GroupBy 
 statistics. Doing this clearly shows that the whiskeys are primarily being categorized by how many sweet descriptors appear in the review.
-<br>
+<br><br>
 <img src= "https://github.com/gspahlin/Whiskey_Analysis/blob/master/Figures/Clustering_results_too_coarse.jpg" alt = "clustering results">
 <br>
 Fig. 3 - Overly course DBSCAN criteria lead to whiskeys being grouped almost completely by how sweet they are. 
