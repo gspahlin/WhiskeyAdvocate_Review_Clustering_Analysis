@@ -97,7 +97,16 @@ Whiskey_unsuper_learn_cluster2.ipyn<br>
 Whiskey_unsuper_learn_cluster3.ipynb<br>
 <br><br>
 Finally the files for annotation of this read me are present in the figures file. In the future I may decide to revisit the features and this analysis, but at present 
-I plan to advance to the next part of my project with the current clustering data for providing recommendations. Stay tuned for a web application to provide 
+I plan to advance to the next part of my project with the current clustering data for providing recommendations. The clustering results mentioned above were loaded 
+into my updated research database, along with my various revises feature sets. 
+<br>
+<img src= "https://raw.githubusercontent.com/gspahlin/WhiskyAdvocate_ETL/master/ERD_and_SQL/Whiskey_ERD_1.jpg" alt = "updated ERD">
+<br>
+Fig. 5 - The optimized clustering algorythm produces small groups with high level of similarities of descriptive words in the reviews. In the above example the 
+whiskeys in the same group have agreement in all of the features except for "fruity words".  
+<br>
+
+Stay tuned for a web application to provide 
 recommendations! 
  <br><br>
  Gregory W. Spahlinger   
