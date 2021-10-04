@@ -105,7 +105,6 @@ into my updated research database, along with my various revises feature sets.
 Fig. 6 - The optimized clustering algorythm produces small groups with high level of similarities of descriptive words in the reviews. In the above example the 
 whiskeys in the same group have agreement in all of the features except for "fruity words".  
 <br><br>
-
 Stay tuned for a web application to provide 
 recommendations! 
  <br><br>
