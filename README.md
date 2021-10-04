@@ -86,13 +86,17 @@ different categories. This worked better than a large set of descriptive words, 
 in the review. There may be room for improvement in this scheme, but at the moment I feel that I've found a maximum in the particular approach I'm using.
 <br>
 Currently the clustering file that is most important is:<br>
-Whiskey_unsuper_learn_cluster3.ipynb
+<b>Whiskey_unsuper_learn_cluster3.ipynb</b>
 <br>
 Other clustering result files include:
 <br>
 Whiskey_unsuper_learn_cluster1.ipynb<br>
 Whiskey_unsuper_learn_cluster2.ipyn<br>
 Whiskey_unsuper_learn_cluster3.ipynb<br>
+<br><br>
+Finally the files for annotation of this read me are present in the figures file. In the future I may decide to revisit the features and this analysis, but at present 
+I plan to advance to the next part of my project with the current clustering data for providing recommendations. Stay tuned for a web application to provide 
+recommendations! 
  <br><br>
  Gregory W. Spahlinger   
  gspahlin@gmail.com    
